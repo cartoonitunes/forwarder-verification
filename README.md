@@ -31,3 +31,20 @@ v2 adds `pragma solidity ^0.4.8` and the `LOCK8605463013()` constant (an anti-pr
 ## Combined Impact
 
 9,473 contracts verified across both versions — the most widely deployed unverified bytecodes on early Ethereum.
+
+## Version 3 (v0.4.7, no optimizer)
+- **Example:** [`0xbdb8b9ba2f9b21e7a4bef7cf5a1e3217d8112d6f`](https://etherscan.io/address/0xbdb8b9ba2f9b21e7a4bef7cf5a1e3217d8112d6f)
+- **Deployed:** December 19, 2016
+- **Siblings:** 950 identical deployments
+- **Compiler:** solc 0.4.7+commit.822622cf, optimizer OFF
+- **Source:** Same as v1 (`src/Forwarder_v2.sol`, no pragma)
+
+## Version 4 (v0.4.10, no optimizer)
+- **Example:** [`0xc0fad709ea2f445a1a2b1f508bec8e27743ce3d2`](https://etherscan.io/address/0xc0fad709ea2f445a1a2b1f508bec8e27743ce3d2)
+- **Deployed:** April 21, 2017
+- **Siblings:** 822 identical deployments
+- **Compiler:** solc 0.4.10+commit.f0d539ae, optimizer OFF
+- **Source:** Same as v2 (`src/Forwarder_v1.sol`, with pragma)
+
+## Total Impact
+11,245 contracts verified across all four versions.
